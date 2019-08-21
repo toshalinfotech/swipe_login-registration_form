@@ -1,0 +1,121 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #ededed !important;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.skform {
+  background: white;
+  margin: 50px 0;
+  background-image: url("img/italy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+}
+
+.skform .left {
+  float: left;
+  width: 30%;
+  height: 100%;
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateX(100%);
+  color: white;
+  padding: 50px 20px;
+}
+
+.skform .left .img-btn,
+.skform .right .img-btn {
+  width: 100px;
+  height: 36px;
+  margin: 115px 0 0 95px;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #FF4081;
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 50px #FF4081 inset;
+}
+
+.skform .left .img-btn:hover,
+.skform .right .img-btn:hover {
+  box-shadow: 0 0 #FF4081 inset;
+  border: 1px solid #fff;
+}
+
+.skform .right {
+  float: right;
+  width: 30%;
+  height: 100%;
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px 20px;
+}
+
+.skform .white {
+  position: absolute;
+  height: 100%;
+  left: 0%;
+  width: 70%;
+  transition: 2s;
+  background-color: white;
+  z-index: 1;
+  padding: 50px 0;
+}
+
+.skform .white-right {
+  left: 30%;
+}
+
+.skform .right-translate {
+  transform: translateX(-100%);
+}
+
+.skform .left-translate {
+  transform: translateX(0%);
+}
+
+.skform input {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px 0 5px 0;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.skform .skSignInBtn,
+.skform .skSignUpBtn {
+  display: block;
+  margin: 20px auto 0px;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #FF4081;
+  cursor: pointer;
+  box-shadow: 0 50px #FF4081 inset;
+  background: #fff;
+  transition: 0.4s;
+}
+
+.skform .skSignInBtn:hover,
+.skform .skSignUpBtn:hover {
+  box-shadow: 0 0 #FF4081 inset;
+  color: #FF4081;
+}
